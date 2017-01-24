@@ -7,7 +7,7 @@ to generate api documentation in README.md files.
 First install [jsdoc-to-markdown](https://www.npmjs.com/package/jsdoc-to-markdown) globally
 ```
 npm install -g jsdoc-to-markdown
-``´
+```
 
 Run `cp README.md README.hbs` (hbs is ending for handlebars)
 
