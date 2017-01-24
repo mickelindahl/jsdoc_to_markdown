@@ -17,7 +17,7 @@ Add the following code to your README.hbs in a approperiate place
 {{>all-docs~}}
 ```
 
-One can also user `{{>main-index~}}` to get html and `{{>main}`
+One can also user `{{>main-index~}}` to get html and `{{>main}` to get all
 
 Update package.json with 
 
