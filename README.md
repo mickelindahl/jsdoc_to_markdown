@@ -21,6 +21,6 @@ Update package.json with
 
 ```json
  "scripts": {
-    "jsdoc-to-markdown":"jsdoc2md --template README.hbs --files {source files with jsdoc space separated} > README.md"
+    "jsdoc-to-markdown":"jsdoc2md --template README.hbs --files {src files} > README.md"
   },
 ``` 
