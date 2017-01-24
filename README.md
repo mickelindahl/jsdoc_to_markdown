@@ -14,8 +14,10 @@ Run `cp README.md README.hbs` (hbs is ending for handlebars)
 Add the following code to your README.hbs in a approperiate place 
 ```md
 ## API
-{{>main}}
+{{>all-docs~}}
 ```
+
+One can also user `{{>main-index~}}` to get html and `{{>main}`
 
 Update package.json with 
 
@@ -30,3 +32,5 @@ For parameters use list
 - a parameter
   - a subparamter
 - another parameter
+
+@returns {promise} list with data from each file
