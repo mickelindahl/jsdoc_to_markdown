@@ -24,3 +24,9 @@ Update package.json with
     "jsdoc-to-markdown":"jsdoc2md --template README.hbs --files {src files} > README.md"
   },
 ``` 
+
+## Design
+For parameters use list
+- a parameter
+  - a subparamter
+- another parameter
